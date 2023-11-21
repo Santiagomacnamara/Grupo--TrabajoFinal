@@ -9,11 +9,11 @@
 }
 
 body{
-    background-color: rgb(22, 6, 161);
+    background-color: rgb(7, 38, 175)
 }
 
 .header{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(33, 8, 121);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,19 +51,19 @@ body{
 
 .header .nav-links a{
     font-size: 23px;
-    color: #eceff1;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .header .nav-links li a:hover{
-    color: #ffbc0e;
+    color: #ffffff;
 }
 
 .header .btn button{
     font-weight: 700;
     color: #1b3039;
     padding: 9px 25px;
-    background: #eceff1;
+    background: #ffffff;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -71,13 +71,13 @@ body{
 }
 
 .header .btn button:hover{
-    background: brown;
-    color: #ffbc0e;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 255, 191, 0);
     transform: scale(1.1);
 }
 
 .BF{
-    background-color: rgb(246, 246, 248);
+    background-color: rgb(255, 255, 255);
     width: 328px;
     height: 290px;
     margin: 10px;
@@ -85,13 +85,13 @@ body{
     margin: 2 auto;
 }
 .FG{                                                   
-    background-color: rgb(250, 249, 253);      
+    background-color: rgb(255, 255, 255);      
     width: 325px;
     height: 290px;
     margin: 10px;
     padding: 10px;
     margin: 0 auto;
-    position: absolute;
+    position: absolute;                         
     top: 125%;
     right: 37%;
     transform: translate(50%, -50%);
@@ -104,6 +104,23 @@ body{
     padding: 10px;
     margin: 0 auto;
 }
+
+.body.HOLA{
+   cursor: pointer;
+}
+
+.body.HOLA.img{
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.body.HOLA.img:hover{
+    transform: scale(1.2);
+}
+
 
 
 @keyframes ejemplo {
@@ -130,8 +147,8 @@ body{
 }
 
 .keyframesEdit {
-    width: 300px;
-    height: 825px;
+    width: 750px;
+    height: 290px;
     background-color: aqua;
     animation-name: ejemplo;
     animation-duration: 10s;
